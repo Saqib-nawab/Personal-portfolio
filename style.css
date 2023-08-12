@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(8, 8, 49);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(23, 23, 78);
+}
+
+.purple{
+    color: rgb(81 32 81);
+}
+#element{
+    color: rgb(81 32 81);
+}
+.left{
+    font-size: 1.5rem;
+}
+.left:hover{
+    font-size: 1.7rem;
+    color: yellow;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.2rem;
+    color: yellow;
+}
+
+.firstSection{
+    display: flex;
+    margin: 70px 0;
+    justify-content: space-around;
+    height: 55vh;
+}
+
+.firstSection >div{
+    width: 30%;
+
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.rightSection img{
+    width: 100%;
+}
+
+hr{
+    border: 0px;
+    height: 1.1px;
+    background-color:rgb(71, 103, 192);
+    margin: 30px 46px;
+}
+
+.secondSection{
+    margin: auto;
+    width: 88vw;
+    height: 60vh;
+}
+.secondSection .grey{
+    color: grey;
+}
+.secondSection .horizontal{
+    background-color: white;
+    height: 1px;
+    margin: 30px 0;
+    display: flex;
+    width: 86vw;
+}
+.secondSection .vertical{
+    background-color: white;
+    height: 46px;
+    width: 1px;
+    margin: 0 85px;
+}
+.vertical img{
+    width:23px;
+    position: relative;
+    top: -33px;
+    left: -9px;
+}
+
+.vertical .vertical-title{
+    font-size: 0.8rem;
+    position: relative;
+    top: 23px;
+    width: 156px;
+}
+
+.vertical .vertical-desc{
+    position: relative;
+    top: 30px;
+    width: 160px;
+    font-size: 9px;
+    color: gray;
+}
+
+.footer{
+    display: flex;
+    background-color: #151029;
+    justify-content: space-evenly;
+    padding: 23px 33px;
+    height: 100px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 150px;
+}
+.copyright{
+    color: gray;
+    background-color:#151029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    background-color: #2a132e;
+    padding: 12px;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
